@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Rashi Vishwakarma - Galaxy Portfolio</title>
+
+<!-- Google Fonts -->
+<link
+  href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins&display=swap"
+  rel="stylesheet"
+/>
+
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div id="starfield"></div>
+
+<header id="hero" class="section hero-section" tabindex="0" aria-label="Introduction">
+  <h1 class="hero-title">Hi, I’m Rashi Vishwakarma 🚀</h1>
+  <p class="hero-subtitle">Exploring the Universe of Technology, One Project at a Time.</p>
+  <p class="hero-typing" aria-live="polite" aria-atomic="true">Web Developer<span class="cursor">|</span></p>
+  <a href="rashi_vishwakarma_resume.pdf" download class="btn btn-download" aria-label="Download Resume">Download Resume</a>
+
+  <!-- floating planets -->
+  <div class="floating-planet orbit1" aria-hidden="true"></div>
+  <div class="floating-planet orbit2" aria-hidden="true"></div>
+</header>
+
+<main>
+
+  <section id="about-profile" class="section about-profile" aria-label="Profile and About Me" tabindex="0">
+    <!-- Profile Picture -->
+    <div class="profile-pic-container" aria-label="Profile picture">
+      <img src="images/rashi_resumepic.jpeg" alt="Rashi Vishwakarma - Profile picture" class="profile-pic" />
+    </div>
+  
+    <!-- About Me content -->
+    <div class="about-content">
+      <h2 class="section-title" id="about-title">About Me</h2>
+      <ul class="about-list">
+        <li><span class="icon" aria-hidden="true">⭐</span>I'm a purpose-driven B.Tech student specializing in Information Technology, with a passion for building meaningful digital experiences. Whether it's designing clean, responsive interfaces or exploring how AI can enhance everyday solutions, I thrive at the intersection of technology, creativity, and empathy. My journey so far has been shaped by hands-on projects, continuous learning, and a deep curiosity to solve real-world problems through code.</li>
+        <li><span class="icon" aria-hidden="true">🪐</span> I’m always excited to collaborate on ideas that make a difference — whether through internships, hackathons, or personal projects — and I believe in growing through challenges, not just checklists.</li>
+        <li><span class="icon" aria-hidden="true">🚀</span> Current: B.Tech IT at Manipal University Jaipur, Web development Intern at Tamizhan Skills.</li>
+      </ul>
+    </div>
+  </section>
+
+<section id="projects" class="section" aria-labelledby="projects-title" tabindex="0">
+  <h2 id="projects-title" class="section-title">Projects</h2>
+
+  <div class="projects-grid">
+    <article class="project" tabindex="0" aria-describedby="desc-calmconnect">
+      <img src="images/logo.svg" alt="CalmConnect app icon" loading="lazy" />
+      <h3>CalmConnect</h3>
+      <p id="desc-calmconnect" class="project-desc">
+        A mental health support Website connecting users with mindfulness tools and supportive community features.
+      </p>
+      <p><strong>Tech Stack:</strong> html, CSS, React, Flask, AI APIs</p>
+      <p class="project-links">
+        <a href="https://github.com/rashivishwakarmaa/calmconnect" target="_blank" rel="noopener" aria-label="CalmConnect GitHub repository">GitHub</a> |
+        <a href="https://calmconnect.example.com" target="_blank" rel="noopener" aria-label="CalmConnect Live Demo">Live Demo</a>
+      </p>
+    </article>
+
+    <article class="project" tabindex="0" aria-describedby="desc-calmchat">
+      <img src="https://i.imgur.com/4AiXzf8.png" alt="CalmChat app icon" loading="lazy" />
+      <h3>CalmChat</h3>
+      <p id="desc-calmchat" class="project-desc">
+        A floating chatbot assistant embedded in CalmConnect for interactive user support.
+      </p>
+      <p><strong>Tech Stack:</strong> React, Node.js, Chatbot APIs</p>
+      <p class="project-links">
+        <a href="https://github.com/yourusername/calmchat" target="_blank" rel="noopener" aria-label="CalmChat GitHub repository">GitHub</a> |
+        <a href="https://calmchat.example.com" target="_blank" rel="noopener" aria-label="CalmChat Live Demo">Live Demo</a>
+      </p>
+    </article>
+
+    <article class="project" tabindex="0" aria-describedby="desc-portfolio">
+      <img src="images/galaxy_logo.png" alt="Portfolio website icon" loading="lazy" />
+      <h3>Portfolio Website</h3>
+      <p id="desc-portfolio" class="project-desc">
+        This very portfolio site showcasing my skills, projects, and achievements in a galaxy theme.
+      </p>
+      <p><strong>Tech Stack:</strong> React, Node.js, Canvas API</p>
+      <p class="project-links">
+        <a href="https://github.com/yourusername/galaxy-portfolio" target="_blank" rel="noopener" aria-label="Portfolio GitHub repository">GitHub</a> |
+        <a href="https://yourusername.github.io/galaxy-portfolio" target="_blank" rel="noopener" aria-label="Portfolio Live Demo">Live Demo</a>
+      </p>
+    </article>
+  </div>
+</section>
+
+<section id="skills" class="section" aria-labelledby="skills-title" tabindex="0">
+  <h2 id="skills-title" class="section-title">Skills Galaxy</h2>
+
+  <div class="skills-galaxy" aria-label="Skills orbit diagram" role="list">
+    <div class="core-skills" role="listitem" aria-label="Core skills">
+      <div>Python</div>
+      <div>JavaScript</div>
+    </div>
+
+    <!-- orbiting satellites -->
+    <div class="orbiting-skill" style="--angle: 0deg;">React</div>
+    <div class="orbiting-skill" style="--angle: 51deg;">Flask</div>
+    <div class="orbiting-skill" style="--angle: 102deg;">HTML</div>
+    <div class="orbiting-skill" style="--angle: 153deg;">CSS</div>
+    <div class="orbiting-skill" style="--angle: 204deg;">AI APIs</div>
+    <div class="orbiting-skill" style="--angle: 255deg;">Git</div>
+    <div class="orbiting-skill" style="--angle: 306deg;">Cloud</div>
+  </div>
+
+
+  <div class="skills-galaxy" aria-label="Skills orbit diagram" role="list">
+    <div class="core-skills" role="listitem" aria-label="Core skills">
+      <div>C, C++</div>
+      <div>Java</div>
+    </div>
+
+    <!-- orbiting satellites -->
+    <div class="orbiting-skill" style="--angle: 0deg;">MERN</div>
+    <div class="orbiting-skill" style="--angle: 51deg;">Typescript</div>
+    <div class="orbiting-skill" style="--angle: 102deg;">Angular</div>
+    <div class="orbiting-skill" style="--angle: 153deg;">Express.js</div>
+    <div class="orbiting-skill" style="--angle: 204deg;">node.js</div>
+    <div class="orbiting-skill" style="--angle: 255deg;">SQL</div>
+    <div class="orbiting-skill" style="--angle: 306deg;">Databases</div>
+  </div>
+</section>
+
+<section id="achievements" class="section" aria-labelledby="achievements-title" tabindex="0">
+  <h2 id="achievements-title" class="section-title">Achievements & Certifications</h2>
+
+  <div class="achievements-list">
+    <div class="achievement" tabindex="0" aria-label="RISE Internship">
+      <div class="achievement-icon" aria-hidden="true">🌟</div>
+      <h3>RISE Internship program- Tamizhan Skills</h3>
+      <p>Completed RISE Internship fostering my skills in full-stack development.</p>
+    </div>
+    <div class="achievement" tabindex="0" aria-label="Hackathons">
+      <div class="achievement-icon" aria-hidden="true">🏆</div>
+      <h3>Core and Advanced Python</h3>
+      <p>completed 2 month training in core and advanced Python from Cybrom Technology pvt. ltd.
+      </p>
+    </div>
+    <div class="achievement" tabindex="0" aria-label="AI & Cloud Certifications">
+      <div class="achievement-icon" aria-hidden="true">🎖️</div>
+      <h3>Angular full stack development Certifications</h3>
+      <p>Certified in multiple courses under angular full-stack development couse offered by infosys springboard virtual internship 6.0 .</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section" aria-labelledby="contact-title" tabindex="0">
+  <h2 id="contact-title" class="section-title">Send a Signal</h2>
+
+  <form id="contact-form" action="#" method="POST" novalidate>
+    <label for="name">Name <span aria-hidden="true">*</span></label>
+    <input type="text" id="name" name="name" placeholder="Your full name" required aria-required="true" />
+
+    <label for="email">Email <span aria-hidden="true">*</span></label>
+    <input type="email" id="email" name="email" placeholder="your.email@example.com" required aria-required="true" />
+
+    <label for="message">Message <span aria-hidden="true">*</span></label>
+    <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required aria-required="true"></textarea>
+
+    <div class="form-status" role="alert" aria-live="polite"></div>
+
+    <button type="submit" aria-label="Send message">Launch Rocket 🚀</button>
+  </form>
+
+  <div class="contact-links" aria-label="Other contact links">
+    <a href="mailto:rashivishwakarma2004@gmail.com" target="_blank" rel="noopener" aria-label="Email">📧 Email</a>
+    <a href="https://linkedin.com/in/rashi-vishwakarma" target="_blank" rel="noopener" aria-label="LinkedIn">🔗 LinkedIn</a>
+    <a href="https://github.com/rashivishwakarmaa" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+  </div>
+</section>
+
+</main>
+
+<footer role="contentinfo">
+  <p>Built with 💻 & ☕ by Rashi Vishwakarma 🚀</p>
+  <p>© 2025 Rashi Vishwakarma. All rights reserved.</p>
+</footer>
+
+<script>
+// Typing effect for the role in hero section
+const roles = ["Web Developer", "AI Enthusiast", "Cloud Learner"];
+let roleIndex = 0;
+let charIndex = 0;
+let typingForward = true;
+const typingSpeed = 150;
+const pauseDelay = 1500;
+const typingElement = document.querySelector(".hero-typing");
+
+function typeEffect() {
+  const currentRole = roles[roleIndex];
+  if (typingForward) {
+    charIndex++;
+    typingElement.textContent = currentRole.substring(0, charIndex) + "|";
+    if (charIndex === currentRole.length) {
+      typingForward = false;
+      setTimeout(typeEffect, pauseDelay);
+      return;
+    }
+  } else {
+    charIndex--;
+    typingElement.textContent = currentRole.substring(0, charIndex) + "|";
+    if (charIndex === 0) {
+      typingForward = true;
+      roleIndex = (roleIndex + 1) % roles.length;
+    }
+  }
+  setTimeout(typeEffect, typingSpeed);
+}
+window.addEventListener("load", () => {
+  if (typingElement) typeEffect();
+});
+
+// Contact form submission simulation
+const form = document.getElementById('contact-form');
+const formStatus = form.querySelector('.form-status');
+form.addEventListener('submit', e => {
+  e.preventDefault();
+  formStatus.textContent = '';
+  
+  const name = form.name.value.trim();
+  const email = form.email.value.trim();
+  const message = form.message.value.trim();
+
+  if(!name || !email || !message){
+    formStatus.style.color = '#ef4444';
+    formStatus.textContent = 'Please fill all fields.';
+    return;
+  }
+  
+  formStatus.style.color = '#8b5cf6';
+  formStatus.textContent = 'Sending message...';
+
+  // Simulate async sending
+  setTimeout(() => {
+    formStatus.style.color = '#a3e635';
+    formStatus.textContent = 'Message sent successfully! Thank you.';
+    form.reset();
+  }, 1500);
+});
+</script>
+
+</body>
+</html>
