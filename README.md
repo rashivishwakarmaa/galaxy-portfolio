@@ -52,4 +52,11 @@ Customization
 Contact
 Feel free to reach out via the contact links in the portfolio!
 
+## 📹 Project Demo
+
+I have added a self screen-recorded video demonstrating the project workflow:
+
+[▶️ Watch Project Demo](YOUR_VIDEO_LINK_HERE)
+
+
 Made with ❤️ by Rashi Vishwakarma
