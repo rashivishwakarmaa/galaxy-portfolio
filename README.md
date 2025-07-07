@@ -56,7 +56,7 @@ Feel free to reach out via the contact links in the portfolio!
 
 I have added a self screen-recorded video demonstrating the project workflow:
 
-[▶️ Watch Project Demo](YOUR_VIDEO_LINK_HERE)
+[▶️ Watch Project Demo](https://drive.google.com/file/d/15X5EMqynVRlZC-u1DsGa2_EAwgPQAJSe/view?usp=sharing)
 
 ## 🚀 Live Demo
 
